@@ -1,11 +1,47 @@
+.wallpaper{
+      background-color: #70B879;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
 .area{
     justify-content: center;
     display: flex;
-    background-color: chartreuse;
     width: 100%;
 }
 .card{
-    background-color: blue;
-    border: 1px solid black;
-    width: 800px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    background-color: #AADA95;
+}
+.card h2{
+    text-align: center;
+    color: rgb(247, 245, 244);
+}
+.location{
+    margin-right: 5px;
+    display: flex;
+}
+.location-he{
+    color: rgb(0, 0, 0);
+}
+.head{
+    height: 60px;
+    width: 100vw;
+    background-color: #538B9C;
+}
+.header{
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.card img{
+ height: 500px;
+ width: 50vw;
 }

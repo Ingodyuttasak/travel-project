@@ -1,9 +1,692 @@
 <router-outlet></router-outlet>
+<div class = "wallpaper">
+<header>
+  <div class="head">
+    <h1 class='header'>
+      WEBSITE FOR INTRODUCE TOURIST ATTRAETION
+    </h1>
+  </div>
+</header>
 <div class="area">
+  <div class="area-card">
     <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysalt" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysalt1" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysalt2" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Rong Kluea Market</h2>
+        <p class="card-text">
+          If you are talking about the largest shopping center, the national famous "market" is the answer.
+          This is a huge market near the border between Thailand and Cambodia, which is very close to the
+          immigration checkpoint. This is the largest border trade market in the eastern region. There are
+          many products, such as famous brand products. Second hand goods from all over the world, choose
+          here.
+          For tourists, this market can start shopping from 07.00 - 20.00. It is known that most businessmen
+          is Cambodia people. Learning the Cambodian way of life through Rong Kluea Market is easy to see. In
+          addition, here will sell fresh-dry food electrical appliances and cups - bowls and toys as well.
+        </p>
+          <h3>
+            Location : 449-450 Km.5 Road on the left side, Aranyaprathet Subdistrict, Aranyaprathet District, Sa
+            Kaeo Province
+          </h3>
+          <h3>
+            Opening hours : Open daily from 07.00-20.00
+          </h3>
       </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypha1" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypha2" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypha3" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Phra Prong Reservoir</h2>
+        <p class="card-text">
+          The largest irrigation dam in Sa Kaeo Province, it is one of His Majesty the King's royal projects
+          built to block the Huai Phra Prong watershed, a river that flows from Pang Sida National Park. with
+          the abundance of surrounding nature Phra Prong Dam is a very relaxing place for everyone in the
+          family.
+          For the most interesting and popular activities when traveling here is Taking a boat ride or rafting
+          on the lake above the dam will take you to meet a wide variety of waterfowl. Especially cormorants
+          or snakes that come out for a living from May to July. You can choose to do other activities such as
+          hiking and studying nature. Enjoy having fun with the fish along the dam. Until the overnight stay
+          that must contact the staff in advance
+        </p>
+        <h4>
+          Location : Village No. 3, Ban Rabo Hukwang and Village No. 6, Ban Huai Chan, Chong Kum Subdistrict, Watthana
+          Nakhon District, Sa Kaeo Province
+        </h4>
+        <h3>Opening hours : Open for visitors daily from 8:30 a.m. to 4:30 p.m.</h3>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysdok1" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysdok2" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysdok3" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Sdok Kok Thom Castle</h2>
+        <p class="card-text">
+          A strange name that many people wonder about. is one of the must-see attractions in Sa Kaeo The
+          origin of the name "Sdok Kok Thom" means "the city with reeds overgrown in a large swamp". This
+          place is assumed to have been built in the 14th Buddhist century to enshrine idols and use them for
+          assembly. Hindu religious rituals sectarianism
+          For the castle made of sandstone, there is a Gopura. or arch Only the east and west were left.
+          Inside the terrace, there are two sandstone bishops in front of the central castle which is the main
+          prang. The outer part of the castle in the east There is a large rectangular pond and cobbled
+          streets from the castle to the pond. This castle faces east. with the belief that the east is the
+          direction of power, light and prosperity and the west is the direction of death.
+          by the importance of discovery This "Prasat Sdok Kok Thom" is the discovery of two stone
+          inscriptions engraved with it. ancient Khmer script This is an important evidence indicating the age
+          of the construction of Prasat Sdok Kok Thom. It also tells about the purpose of creating the 2nd
+          main inscription that King Uthaithiyavarman II renovated the castle in 1595 and the King of the
+          Khmer Empire was a patron of religion.
+          with a brahmin priest as a religious leader to give advice and is the mediator between gods and
+          kings as well as history Brahmins who perform the devaracha ceremony The practice of devaraj and
+          idols Village building, various religious merits, etc. At present, both inscriptions are kept at the
+          National Library of the Fine Arts Department.
+        </p>
+        <h4>
+          Location : Khok Sung Subdistrict, Khok Sung District, Sa Kaeo Province
+        </h4>
+        <h3>Opening hours : Open daily from 07.00-20.00 </h3>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mywatch1" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mywatch2" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mywatch3" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Wat Tham Khao Chakan</h2>
+        <p class="card-text">
+          A large limestone mountain, more than 4,000 years old, stands majestically in the midst of large and small
+          limestone mountains in the midst of natural shady. Wat Tham Khao Chakan was built in 1990 with a reinforced
+          concrete ubosot and a monastery. half-timbered building There is also a 300-step staircase leading to Khao
+          Thalu Cave.
+          Inside is the location of Buddha images for tourists to travel to pay respects to enhance the prosperity of
+          life. Buddha's Footprint And there are 12 large and small caves for tourists to explore more than 12 rooms.
+          Another beauty that cannot be missed is walking up to see the scenery of Khao Chakan District.
+          In addition to this is a Mahayana Buddhist temple that is open to tourists to worship the sacred things. This
+          is also a good viewpoint that clearly reveals the beautiful scenery of Khao Chakan District. It is open to
+          visitors every day from 8:30 a.m. to 4:30 p.m.
+        </p>
+        <h4>
+          Location : Khlong Hat Subdistrict, Khlong Hat District, Sa Kaeo Province
+        </h4>
+        <h3>
+          Opening hours : Open for visitors daily from 8:30 a.m. to 4:30 p.m.
+        </h3>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypangsd1" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypangsd2" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mypangsd3" alt="Random third slide" >
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Pang Sida National Park</h2>
+        <p class="card-text">
+          When talking about the butterfly festival each year. must appear “Pang Sida National Park” is definitely on
+          the list. because of the abundance of forests in Pang Sida National Park which is the habitat of various kinds
+          of wildlife including more than 300 species of birds with a complex mountainous terrain covered with many
+          types of forest including dry evergreen forests, hill evergreen forests, mixed deciduous forests, and
+          deciduous dipterocarp forests It is no wonder why this place has become a delight for nature lovers.
+          For highlights of tourism that should not be missed are: Experience the succulence with many beautiful
+          waterfalls, such as Pang Sida Waterfall, a waterfall that looks like a stream of water dropping from an 8
+          meter high cliff into a wide, shady basin, suitable for recreation. Coming to Pha Takhian Waterfall A
+          beautiful waterfall that stands out with a 20-meter high cliff, ending with the Kwai Makha Waterfall. to walk
+          in In the nearby area, there is also Rak Sai Noi Waterfall, which is only 500 meters away.
+          Another thing that should not be missed is buta lung grassland It is a grassland where you can see a lot of
+          wild animals out in the midst of beautiful nature, ending with the viewpoint located at the 40th kilometer
+          area that can see the scenery as far as the eye can see in the middle of the vast valley. and will be
+          especially beautiful in the morning when the sun rises And the evening during the sunset is beautiful as well.
+        </p>
+        <h4>
+          Location : Moo 7, Tha Yaek Subdistrict, Mueang District, Sa Kaeo Province
+        </h4>
+        <h3>
+          Opening hours : Open daily from 06.00-20.00
+        </h3>
+        <h4>
+          Tel. 0 3724 6100, 088 1862 1511
+        </h4>
+        <h4>
+          Service fee: Thai people, adults 20 baht, children 10 baht. , Foreigners 200 baht for adults and 100 baht for
+          children.
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mychao1" alt="Random first slide" >
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mychao2" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mychao3" alt="Random third slide" >
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>ChaoPhraya Aphiphubet Hospital or ChaoPhraya Aphiphubet Building</h2>
+        <p class="card-text">
+          Chao Phraya Aphiphubet Museum is a Thai Traditional Medicine Museum that provides advice on herbal medicine in
+          addition to treating diseases similar to hospitals, it is also used to treat diseases similar to hospitals.
+          There are also beautiful buildings, which are outstanding architecture.
+        </p>
+        <h4>
+          Location : Address: 32/7 Moo 12, Tambol Tha Ngam Ampher Muang Prachinburi, Prachinburi
+        </h4>
+        <h3>
+          Open: 08.30 a.m. - 04.00 p.m.
+        </h3>
+        <h4>
+          Tel : 0-3721-1289, 0-3721-1088 ext. 2149, 2133
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mytab1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mytab2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mytab3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Thap Lan National Park</h2>
+        <p class="card-text">
+          Thap Lan National Park is a large park that can take up areas ranging from Nadi District, PrachinBuri Province
+          to Pak Thong Chai District, Wang Nam Khiao District and Sing Sao District, Nakhon Ratchasima Province. The
+          forest is abundant and has a forest, which is rare from the general area and It is the second largest national
+          park in Thailand.
+        </p>
+        <h4>
+          Location : BuPrahman, Nadi, Prachinburi
+        </h4>
+        <h3>
+          Open: 08.00 a.m. - 06.00 p.m.
+        </h3>
+        <h3>
+          Admission Fee : Thai : Adult 20 Baht / Child 10 Baht
+        </h3>
+        <h3>
+          Foreigner : Adult 200 Baht / Child 100 Baht
+        </h3>
+        <h4>
+          Tel : 0-3721-0340 , 09-2550-0172
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeto1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeto2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeto3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Chakkrapong Reservoiro or khao ETO</h2>
+        <p class="card-text">
+          The Chakkrapong Reservoir or Khao Eto Reservoir is a soil dam built to store water for dry season for
+          agricultural use located in the foothills of Khao Ito, Khao Ito Waterfall Park is surrounded by beautiful
+          nature. Tourists can drive. Take a stroll, cycle along the embankment or camping tents along the waterfront
+          and see the beauty of the morning sunrise.
+        </p>
+        <h4>
+          Location : Chakkrapong Reservoir 14 Suwansorn 33 Rd., Tambol Banpra, Ampher Muang Prachinburi, Prachinburi
+
+        </h4>
+        <h3>
+          Open: 8.30 a.m. - 05.30 p.m. Tel : 0-3721-1140
+        </h3>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykaew1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykaew2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykaew3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Wat Kaew Phichit</h2>
+        <p class="card-text">
+          Wat Kaew Phichit is an old temple built in 1879. The highlight of this temple is the Ubosot, decorated with
+          Thai, Chinese, European and Khmer architecture. The pillars are built with Greek Corinthian art. Inside the
+          temple, there is a mural about Buddhism, which is a perfect blend of art from various cultures. Besides coming
+          to see the beauty of the temple, villagers and tourists also come to pay respects to Luang Phor Aphai, the
+          principal Buddha image "Pang Aphai Than" for auspiciousness.
+        </p>
+        <h4>
+          Location : Na Mueang Subdistrict, Mueang District, Prachin Buri Province
+        </h4>
+        <h3>
+          Open for service : 08.00-18.00
+        </h3>
+        <h4>
+          Tel. : 0-3721-2795
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeam1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeam2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myeam3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Haew E Eam Waterfall</h2>
+        <p class="card-text">
+          Travel to Khao Yai National Park, continue at Heaw E EAM Waterfall. which originates from Klong Chang Klan,
+          passes through the basin and flows down from the cliff about 25 meters high into a large water curtain. during
+          the non-flooding season The water is clear and clean, suitable for swimming. but in the rainy season The
+          amount of water is so great that it pours down from the cliff. It is a very beautiful and spectacular picture.
+        </p>
+        <h4>
+          Location : Khao Yai National Park Prachantakham District Prachinburi Province is open for visitors: can
+          inquire about the time from the national park
+        </h4>
+        <h4>
+          Tel: 0-86092-6529
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myroyal1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myroyal2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="myroyal3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Chulachomklao Royal Military Academy</h2>
+        <p class="card-text">
+          Chula Chomklao Royal Military AcademyThe Academy is one of Nakhon Nayok's most famous
+          tourist attractions. The tour within the Cadet TertySchool can be divided into two main parts: typical
+          sightseeing and adventureVisitors can drive in and just get a pass from the guardfrom the guard at the front
+          gate. Some of the highlightsof the shrine of Khun Dan, the museum, the 100th Anniversary of The Royal Military
+          Academy, Sala Circle It is enshrined in the image of King Rama IX and Wat Khao Cha-Ngok, which has a sacred
+          buddha image and a pair of Buddha footprints for us to worship. For a second trip to The Royal Military
+          Academy, there are adventure activities including pentball shooting. BB Gun Shooting, Cycling Archery ATV
+          Driver It is recommended to come in the morning in the afternoon quite hot.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mybam1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mybam2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mybam3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Bamboo Forest Tunnel Chulabhorn Wanaram Temple</h2>
+        <p class="card-text">
+          The check-in point takes beautiful photos like checking in to Japan. In front of Chulabhorn Wanaram Temple,
+          which occurs naturally. This bamboo tunnel stretches for about 800 meters and is tilted towards each other
+          like the Arashiyama Bamboo Forest in Kyoto, Japan This makes it one of the most popular tourist destinations
+          in Nakhon Nayok. So this weekend, we don't miss taking great photos with the bamboo tunnels!
+        </p>
+        <h4>
+          Location : Ban Phrik Sub-district, Ban Na District, Nakhon Nayok Province
+        </h4>
+        <h4>
+          Coordinates : https://goo.gl/maps/56mbVoJfRSHMqPx86
+        </h4>
+        <h4>
+          Open: 07.00 a.m. - 06.00 p.m
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykhun1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykhun2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mykhun3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Khun Dan Prakan Chon Dam</h2>
+        <p class="card-text">
+          Khun Dan Prakan Chon Dam Formerly known as Khlong Tha Dan Dam, it is the longest compacted concrete dam in
+          Thailand and in the world. It was built along the lines of His Majesty King Bhumibol Adulyadej's birthday.
+          It's King Rama In addition to khun Dan Prakan Chon Dam, it is built to hold water during the rainy season in
+          the dry season for agriculture. It has also become a major tourist attraction in Nakhon Nayok. If you want to
+          see the beauty of the mountains or take a boat ride inside the dam, breathe fresh air. Find delicious food at
+          the best restaurants.
+        </p>
+        <h4>
+          Location : Ban Tha Dan Hin Tang, Muang Nakhon Nayok, Nakhon Nayok
+        </h4>
+        <h4>
+          Coordinates: https://goo.gl/maps/nDbhRiBbb1QZBThr7
+        </h4>
+        <h4>
+          Open: 06.00 a.m. - 06.00 p.m
+        </h4>
+        <h4>
+          Tel: 0-3731-9002
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysari1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysari2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mysari3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Sarika Waterfall</h2>
+        <p class="card-text">
+          Sarika Waterfall is a large waterfall in Nakhon Nayok. The water flows from the cliffs to 9 floors, the
+          tallest cliff is about 200 meters.Each floor has a bath tub, which is not very deep, can be played comfortably
+          and safely, and you can rent a rubber hoop to lie around and float. At the bottom of the waterfall there is a
+          restaurant. Souvenir shops and shower rooms are available.
+        </p>
+        <h4>
+          Location : Sarika Sub-district, Mueang District, Nakhon Nayok Province
+        </h4>
+        <h4>
+          Coordinates: https://goo.gl/maps/XA4toULcejzDoeiu8
+        </h4>
+        <h4>
+          Open: 08.00 a.m. - 06.00 p.m.
+        </h4>
+        <h4>
+          Tel : 0-3731-9002
+        </h4>
+      </div>
+    </div>
+    <div class="card">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mylom1" alt="Random first slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mylom2" alt="Random second slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="mylom3" alt="Random third slide" height="70%" width="100%">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="card-body">
+        <h2>Chong Lom Waterfall</h2>
+        <p class="card-text">
+          Chong Lom Waterfall, a visit to Greenland in Thailand, is surrounded by the green of the trees and you can
+          feel the power of nature around it. All the way. To visit Chong Lom Waterfall, we have to take a boat inside.
+          Khun Dan Prakan Chon Dam
+        </p>
+        <h4>
+          Location : Inside Khun Dan Prakan Chon Dam Na Hin Lad, Pak Phli, Nakhon Nayok
+        </h4>
+        <h4>
+          Coordinates: https://goo.gl/maps/7wq6cp4tV6UiS44J7
+        </h4>
+        <h4>
+          Tel : 0-89493-1200
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
